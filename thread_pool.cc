@@ -1,7 +1,7 @@
 #include "thread_pool.h"
 
 using namespace std;
-using namespace beehive;
+using namespace ccc;
 
 ThreadHolder::ThreadHolder(ThreadLeaveCallback callBack, void *userData)
     :m_callBack(callBack),
